@@ -23,7 +23,7 @@ public class SynchronizedSwimming {
 		b.start();
 	}
 
-	/*
+	/* 
 	 * Refactor this method using a synchronized block to ensure a lock must be held
 	 * on the swimmingPool object until the swimmer has finished their lap.
 	 */
