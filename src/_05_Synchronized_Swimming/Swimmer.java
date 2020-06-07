@@ -16,8 +16,6 @@ public class Swimmer extends Thread {
 
 	@Override
 	public void run() {
-		for (int i = 0; i < 6; i++) {
-			SynchronizedSwimming.takeTurn(this);
-		}
+		// ...
 	}
 }
